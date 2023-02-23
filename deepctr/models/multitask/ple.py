@@ -9,8 +9,8 @@ Reference:
 """
 
 import tensorflow as tf
-from tensorflow.python.keras.models import Model
-from tensorflow.python.keras.layers import Dense, Lambda
+from tensorflow.kears.models import Model
+from tensorflow.kears.layers import Dense, Lambda
 
 from ...feature_column import build_input_features, input_from_feature_columns
 from ...layers.core import PredictionLayer, DNN
